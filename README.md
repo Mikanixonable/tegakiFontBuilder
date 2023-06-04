@@ -15,7 +15,7 @@
 
 <p>s1.pyを実行し、文字表を文字ごとに分割する</p>
 
-<p>png2ttf.pyで文字の画像からttfフォントをビルドする</p>
+<p>png2ttf.pyで文字の画像からttfフォントをビルドする(fontforgeのfontforge console.batからffpythonコマンドで実行)</p>
 
 <h3>付録</h3>
 <p>JIS.txt</p>
