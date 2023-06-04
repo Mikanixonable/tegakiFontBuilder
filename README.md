@@ -1,14 +1,5 @@
 <html>
-<style>
-    body {}
 
-    div {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row
-    }
-</style>
 
 <body>
     <h1>tegakiFontBuilder</h1>
