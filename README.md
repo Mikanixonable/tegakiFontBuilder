@@ -20,8 +20,11 @@
 
 <p>png2ttf.pyを実行し文字の画像からttfフォントをビルドする(fontforgeのfontforge console.batからffpythonコマンドで実行)</p>
 
+png2ttfの使い方はこっちの方が丁寧に書いてあります
+https://github.com/Mikanixonable/png2ttf
 <h3>付録</h3>
 <p>JIS.txt</p>
 <p>常用漢字とかひらがなとかが入っているテキストファイル</p>
+
 </body>
 </html>
