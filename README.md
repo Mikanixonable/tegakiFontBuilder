@@ -13,13 +13,12 @@
 </p>
 
 <h3>使い方</h3>
-
-<p>p1.pyを実行しtxtファイルから文字表のpng画像を作る </p>
+<p>このリポジトリをダウンロードする。次にanacondaをダウンロードしてきてインストールし、anaconda promptを起動する。もしくは、パソコンにパスを通してコマンドプロンプトからpythonを使えるようにし、コマンドプロンプトを起動する</p>
+<p>p1.pyの中にあるフォントファイルのパスを、自分が持っているフォントに書き換えたあと、anaconda promptまたはコマンドプロンプトで、p1.pyのあるフォルダにcdコマンドを使って移動し、python p1.pyなどと打ってp1.pyを実行しtxtファイルから文字表のpng画像を作る </p>
 <p>イラストソフト等で文字表を参考に文字を書き、文字表のpng画像に上書き保存</p>
-
 <p>s1.pyを実行し、文字表を文字ごとに分割する</p>
 
-<p>png2ttf.pyで文字の画像からttfフォントをビルドする(fontforgeのfontforge console.batからffpythonコマンドで実行)</p>
+<p>png2ttf.pyを実行し文字の画像からttfフォントをビルドする(fontforgeのfontforge console.batからffpythonコマンドで実行)</p>
 
 <h3>付録</h3>
 <p>JIS.txt</p>
