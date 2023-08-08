@@ -8,7 +8,7 @@ font_file = r'C:\SDtool\000\tool\fonts\SourceHanSans-Normal.otf'
 font1 = ImageFont.truetype(font=font_file, size=30, index=0)
 font2 = ImageFont.truetype(font=font_file, size=200, index=0)
 #文字読込み
-with open("JIS4.txt", encoding="utf-8") as f:
+with open("JIS.txt", encoding="utf-8") as f:
     text = f.read()
 
 # text = "あいうyutuyrtyrutrwerthyreｒちゅｒｙｔｔるゆｔｒｙｔりゅｒｙつｙちｙちうｙatkuyt"
@@ -38,7 +38,7 @@ for k in range(len(textList)):
     ##画像保存
     bbox = im.getbbox()
     im_crop = im.crop(box=bbox)
-    dirname = "dist8"
+    dirname = "dist"
     if not os.path.exists(dirname):
         os.mkdir(dirname)
     im_crop.save(dirname+"/"+str(k)+".png")

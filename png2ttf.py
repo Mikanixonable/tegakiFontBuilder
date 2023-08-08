@@ -8,7 +8,7 @@ import fontforge
 # make new font
 font = fontforge.font()
 # 名前の設定
-fontname = "kana2"
+fontname = "font1"
 font.fontname   = fontname
 font.fondname   = fontname
 font.fullname   = fontname
@@ -16,7 +16,7 @@ font.familyname = fontname
 font.encoding   = "UnicodeFull"
 font.version    = "1.0"
 
-pngs = glob.glob("./dist6/test/*.png")
+pngs = glob.glob("./dist/test/*.png")
 pngs2names = lambda png : os.path.splitext(png)[0]
 names = list(map(pngs2names, pngs))
 for index, name in enumerate(names):

@@ -19,11 +19,11 @@ def ImgSplit(im):
 # if __name__ == '__main__':
 
 #文字読込み
-with open("JIS4.txt", encoding="utf-8") as f:
+with open("JIS.txt", encoding="utf-8") as f:
     text = f.read()
 
 #画像一覧の取得
-dirname = "./dist6/"
+dirname = "./dist/"
 tables = glob.glob(dirname + "*.png")
 for index, table in enumerate(tables):
     # 画像の読み込み
