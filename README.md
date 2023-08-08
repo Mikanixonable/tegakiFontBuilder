@@ -3,6 +3,8 @@
 
 <body>
     <h1>tegakiFontBuilder</h1>
+    おおまかな流れ
+    <img src="3.png" width=80%>
     <div style="">
         <img src="1.png" width=30%>
         <img src="2.png" width=30%>
