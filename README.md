@@ -1,8 +1,4 @@
-<html>
-
-
-<body>
-    <h1>tegakiFontBuilder</h1>
+<h1>tegakiFontBuilder</h1>
     おおまかな流れ
     <img src="3.png" width=80%>
     <div style="">
@@ -11,8 +7,7 @@
     </div>
 
 ## 説明
-    手書きフォントの作成を支援するツールです。テキストファイルから下書き用の文字表を作るコードp1.pyと、書き終わった文字表を文字ごとに名前をつけて分割するs1.pyと、文字ごとの画像からフォントを作るpng2ttf.pyという3つのコードから構成されています。png2ttf.pyについては、fontforgeのpythonバインドを使うため、pathを通してffpythonコマンドを使えるようにするか、fontforge付属のconsole.batから実行する必要があり、環境構築が若干面倒です。
-
+手書きフォントの作成を支援するツールです。テキストファイルから下書き用の文字表を作るコードp1.pyと、書き終わった文字表を文字ごとに名前をつけて分割するs1.pyと、文字ごとの画像からフォントを作るpng2ttf.pyという3つのコードから構成されています。png2ttf.pyについては、fontforgeのpythonバインドを使うため、pathを通してffpythonコマンドを使えるようにするか、fontforge付属のconsole.batから実行する必要があり、環境構築が若干面倒です。
 
 ## 使い方
 - このリポジトリをダウンロードする
@@ -29,6 +24,3 @@ https://github.com/Mikanixonable/png2ttf
 ## 付録
 JIS.txt. 
 常用漢字とかひらがなとかが入っているテキストファイル
-
-</body>
-</html>
